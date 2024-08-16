@@ -47,8 +47,8 @@ Para poder crear títulos, se usa el símbolo `#` seguido de un espacio. El núm
 
 ### Negrita
 - Usa doble asterisco ** o doble guion bajo __:
-- **Texto en negrita**
-- __Texto en negrita__
+ **Texto en negrita**
+ __Texto en negrita__
 
 
 ### Cursiva
@@ -66,4 +66,46 @@ Para poder crear títulos, se usa el símbolo `#` seguido de un espacio. El núm
 - Para insertar una imagen, usa el formato ![texto alternativo](URL de la imagen):
 - ![Descripción de la imagen](https://example.com/imagen.jpg)
 
+
+
+
+
+# Comandos de Git 
+
+## Agregar archivos individuales o globalmente
+
+### Agregar un archivo específico:
+- git add nombre-del-archivo
+
+### Agregar todos los archivos modificado:
+- git add .
+
+
+## Agregar comentarios a la confirmación
+- git commit -m "Mensaje descriptivo del commit"
+
+
+## Cargar cambios en el repositorio remoto
+- Cargar cambios en el repositorio remoto
+
+
+## Crear, explorar y eliminar ramas
+
+### Crear nueva rama: 
+- git branch nombre-de-la-rama
+
+### Cambiar a otra rama:
+- git checkout nombre-de-la-rama
+
+### Eliminar una rama:
+- git branch -d nombre-de-la-rama
+
+
+## Revertir un repositorio a una confirmación específica
+
+### Revertir a un commit específico:
+- git checkout id-del-commit
+
+### Crear un nuevo branch a partir de un commit específico:
+- git checkout -b nuevo-branch id-del-commit
 
